@@ -1045,6 +1045,7 @@ __metadata:
     eslint: ^8.45.0
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-refresh: ^0.4.3
+    ky: ^1.0.1
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^5.0.2
@@ -2012,6 +2013,13 @@ __metadata:
   dependencies:
     json-buffer: 3.0.1
   checksum: 74a24395b1c34bd44ad5cb2b49140d087553e170625240b86755a6604cd65aa16efdbdeae5cdb17ba1284a0fbb25ad06263755dbc71b8d8b06f74232ce3cdd72
+  languageName: node
+  linkType: hard
+
+"ky@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "ky@npm:1.0.1"
+  checksum: 1cc8237422b901417bcced1a1fd4d0b2c9b9140ef625fcb9c6c6b78f0e4ddf169e6ba97f497d8be31db0d8f6fb17ad63bcb03aef927b8d7d562d87db3da13474
   languageName: node
   linkType: hard
 
