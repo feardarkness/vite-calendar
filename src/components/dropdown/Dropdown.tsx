@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./DropDown.css";
+import "./Dropdown.css";
 import caretDown from "../../assets/caret-down.svg";
 
 interface Option {
