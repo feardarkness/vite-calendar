@@ -46,11 +46,7 @@ function App() {
         ut augue vel purus accumsan blandit. Nullam aliquet non nisl eget mattis. Quisque lobortis erat porta, molestie
         metus in, mollis turpis.
       </p>
-      <div
-        style={{
-          margin: 30,
-        }}
-      >
+      <div className="dropdown-container">
         <DropDown
           options={[
             {
@@ -59,7 +55,25 @@ function App() {
             },
             {
               id: 2,
-              value: "dos",
+              value: "dos with a big  content to make the dropdown useless",
+            },
+            {
+              id: 3,
+              value: "tres",
+            },
+          ]}
+        />
+      </div>
+      <div className="dropdown-container">
+        <DropDown
+          options={[
+            {
+              id: 1,
+              value: "uno",
+            },
+            {
+              id: 2,
+              value: "dos ",
             },
             {
               id: 3,
